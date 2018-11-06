@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <!-- Car id (carid) - will be HIDDEN - used to pass to other activity -->
+    <TextView
+        android:id="@+id/userid"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+
+    <!-- Name Label -->
+    <TextView
+        android:id="@+id/carid"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dip"
+        android:paddingLeft="16dip"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+</LinearLayout>

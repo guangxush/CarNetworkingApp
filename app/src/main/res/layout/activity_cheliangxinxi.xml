@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ecedf1"
+    tools:context=".Activity.cheliangxinxi">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="#177be1"
+        android:layout_height="50dp">
+
+        <Button
+            android:id="@+id/btnfanhui"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:textColor="#ffffff"
+            android:layout_gravity="center_vertical"
+            android:textStyle="bold"
+            android:text="&#60;"
+            android:textSize="25dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:layout_gravity="center_vertical"
+            android:gravity="left"
+            android:text="车辆信息"
+            android:textSize="25dp" />
+
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="#00000000"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+        android:background="#ffffff"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="汽车品牌 ："
+
+        android:textSize="20dp"
+        android:id="@+id/textView1"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="25dp"
+
+        android:layout_centerVertical="true"
+        />
+<EditText
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:editable="false"
+    android:textSize="20dp"
+    />
+    <TextView
+        android:layout_centerVertical="true"
+
+        android:id="@+id/tvpinpai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginRight="25dp"
+        android:textSize="20dp"
+        android:layout_alignParentRight="true"
+        />
+</RelativeLayout>
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:background="#ffffff"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="型号："
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="25dp"
+                android:textSize="20dp"
+                android:layout_centerVertical="true"
+                />
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:editable="false"
+                />
+            <TextView
+                android:layout_centerVertical="true"
+                android:id="@+id/tvxinghao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginRight="25dp"
+                android:layout_alignParentRight="true"
+                android:textSize="20dp" />
+
+        </RelativeLayout>
+
+
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_marginTop="5dp"
+    android:background="#ffffff"
+    android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="25dp"
+            android:layout_height="wrap_content"
+            android:text="车牌号："
+            android:textSize="20dp"
+            android:layout_centerVertical="true"
+            />
+        <EditText
+            android:editable="false"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            />
+        <TextView
+            android:layout_centerVertical="true"
+            android:id="@+id/tvchepaihao"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_height="wrap_content"
+
+            android:textSize="20dp" />
+</RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:background="#ffffff"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="25dp"
+            android:layout_height="wrap_content"
+            android:text="发动机号："
+            android:textSize="20dp"
+            android:layout_centerVertical="true"
+            />
+        <EditText
+            android:editable="false"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            />
+        <TextView
+            android:layout_centerVertical="true"
+            android:id="@+id/tvfadongjihao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginRight="25dp"
+            android:layout_alignParentRight="true"
+            android:textSize="20dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:background="#ffffff"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="里程数："
+            android:textSize="20dp"
+            android:layout_centerVertical="true"
+            />
+        <EditText
+            android:editable="false"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            />
+        <TextView
+            android:layout_centerVertical="true"
+            android:id="@+id/tvlichengshu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_toLeftOf="@+id/tvkm"
+            android:textSize="20dp" />
+        <TextView
+            android:id="@+id/tvkm"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="万千米"
+            android:layout_marginRight="25dp"
+            android:layout_alignParentRight="true"
+            android:textSize="20dp"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:background="#ffffff"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="汽油量："
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="25dp"
+            android:textSize="20dp"
+            android:layout_centerVertical="true"
+            />
+        <EditText
+            android:editable="false"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            />
+        <TextView
+            android:layout_centerVertical="true"
+            android:id="@+id/tvqiyouliang"
+            android:layout_toLeftOf="@+id/tvbfh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textSize="20dp" />
+        <TextView
+            android:id="@+id/tvbfh"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="%"
+            android:layout_marginRight="25dp"
+            android:layout_alignParentRight="true"
+            android:textSize="20dp"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_marginTop="5dp"
+    android:background="#ffffff"
+    android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="发动机性能："
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="25dp"
+            android:textSize="20dp"
+            android:layout_centerVertical="true"
+            />
+        <EditText
+            android:editable="false"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            />
+        <TextView
+            android:layout_centerVertical="true"
+            android:id="@+id/tvfaxingneng"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_height="wrap_content"
+
+            android:textSize="20dp" />
+
+</RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:background="#ffffff"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="25dp"
+            android:text="变速器性能："
+            android:textSize="20dp"
+            android:layout_centerVertical="true"
+            />
+        <EditText
+            android:editable="false"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            />
+        <TextView
+            android:layout_centerVertical="true"
+            android:id="@+id/tvbianxingneng"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="25dp"
+            android:layout_alignParentRight="true"
+
+            android:textSize="20dp" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:background="#ffffff"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="25dp"
+            android:layout_height="wrap_content"
+            android:text="车灯性能："
+            android:textSize="20dp"
+            android:layout_centerVertical="true"
+            />
+        <EditText
+            android:editable="false"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            />
+        <TextView
+            android:layout_centerVertical="true"
+            android:id="@+id/tvdengxingneng"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_height="wrap_content"
+
+            android:textSize="20dp" />
+
+    </RelativeLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="40dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"></LinearLayout>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  设置当前车辆  "
+
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:background="@drawable/round_corner"
+            android:textSize="20dp"
+            android:id="@+id/btnqueren" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"></LinearLayout>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  修改车辆信息  "
+            android:textColor="#ffffff"
+            android:background="@drawable/round_corner"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:id="@+id/btnxiugai" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"></LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

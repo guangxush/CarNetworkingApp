@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.chelianwang" >
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".Activity.MusicApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".Activity.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activity.denglu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.zhuce"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.xiugaimima"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.xinxiwanshan"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.cheliangxinxi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.xiugaicheliangxinxi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.ditu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.chekuang"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.gerenzhongxin"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.gerenziliao"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.xiugaiziliao"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.cheliangliebiao"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.yuyuexinxi2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.MainMusic"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.StationInfoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.StationListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.RouteActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.OrderActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.QrActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.MipcaActivityCapture"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.ChaxunActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.ProvinceList"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.CityList"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.ShortNameList"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.WeizhangResult"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.tianjiacheliangxinxi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.xianshigerenziliao"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.FanKui"
+            android:screenOrientation="portrait" />
+
+        <service android:name=".player.MusicPlayer" />
+        <!-- 声明百度定位API的定位服务 -->
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote" />
+        <service android:name="com.cheshouye.api.client.WeizhangIntentService" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="TutwnoQCPW4e6lMBoPBg8vIgnk54qoOB" />
+        <meta-data
+            android:name="com.thinkland.juheapi.openid"
+            android:value="JH4c59f237e8d5eb04cb00ecc355d2c232" />
+
+        <activity android:name=".Activity.searchActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Activity.xiugaimima2"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ecedf1"
+    tools:context=".Activity.gerenziliao">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="#177be1"
+        android:layout_height="50dp">
+
+        <Button
+            android:id="@+id/btnfanhui"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:textColor="#ffffff"
+            android:layout_gravity="center_vertical"
+            android:textStyle="bold"
+            android:text="&#60;"
+            android:textSize="25dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:layout_gravity="center_vertical"
+            android:gravity="left"
+            android:text="个人资料"
+            android:textSize="25dp" />
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:background="#ffffff"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="昵称："
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="25dp"
+            android:textSize="20dp"
+            android:layout_centerVertical="true"
+            />
+        <EditText
+            android:editable="false"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            />
+        <TextView
+            android:layout_centerVertical="true"
+            android:id="@+id/tvnicheng"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginRight="25dp"
+            android:layout_alignParentRight="true"
+            android:textSize="20dp" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:background="#ffffff"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="姓名："
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="25dp"
+            android:textSize="20dp"
+            android:layout_centerVertical="true"
+            />
+        <EditText
+            android:editable="false"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            />
+        <TextView
+            android:layout_centerVertical="true"
+            android:id="@+id/tvxingming"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginRight="25dp"
+            android:layout_alignParentRight="true"
+            android:textSize="20dp" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:background="#ffffff"
+        android:layout_height="wrap_content">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="性别："
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="25dp"
+            android:textSize="20dp"
+            android:layout_centerVertical="true"
+            />
+        <EditText
+            android:editable="false"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            />
+        <TextView
+            android:layout_centerVertical="true"
+            android:id="@+id/tvxingbie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginRight="25dp"
+            android:layout_alignParentRight="true"
+            android:textSize="20dp" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:background="#ffffff"
+        android:layout_height="wrap_content">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="支付宝："
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="25dp"
+            android:textSize="20dp"
+            android:layout_centerVertical="true"
+            />
+        <EditText
+            android:editable="false"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            />
+        <TextView
+            android:layout_centerVertical="true"
+            android:id="@+id/tvzhifu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginRight="25dp"
+            android:layout_alignParentRight="true"
+            android:textSize="20dp" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:background="#ffffff"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="城市："
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="25dp"
+            android:textSize="20dp"
+            android:layout_centerVertical="true"
+            />
+        <EditText
+            android:editable="false"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            />
+        <TextView
+            android:layout_centerVertical="true"
+            android:id="@+id/tvchengshi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginRight="25dp"
+            android:layout_alignParentRight="true"
+            android:textSize="20dp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="  修改资料  "
+            android:textStyle="bold"
+            android:background="@drawable/round_corner"
+            android:id="@+id/btnxiugaiziliao"
+            android:textSize="20dp" />
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:background="@drawable/round_corner"
+            android:text="  修改密码  "
+            android:layout_marginLeft="30dp"
+            android:id="@+id/btnxiugaimima"
+             />
+    </LinearLayout>
+
+
+</LinearLayout>
