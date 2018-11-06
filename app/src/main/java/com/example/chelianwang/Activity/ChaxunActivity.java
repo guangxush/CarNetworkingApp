@@ -50,8 +50,8 @@ public class ChaxunActivity extends Activity {
         // ********************************************************
         Log.d("初始化服务代码","");
         Intent weizhangIntent = new Intent(this, WeizhangIntentService.class);
-        weizhangIntent.putExtra("appId",1823);// 您的appId
-        weizhangIntent.putExtra("appKey", "e83783012d77fb5bf1796345a9e30605");// 您的appKey
+        weizhangIntent.putExtra("appId",****);// 您的appId
+        weizhangIntent.putExtra("appKey", "******");// 您的appKey
         startService(weizhangIntent);
         // ********************************************************
 
